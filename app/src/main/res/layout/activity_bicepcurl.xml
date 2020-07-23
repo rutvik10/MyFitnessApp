@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20sp"
+    android:background="#0A0A0A"
+    tools:context=".Bicepcurl">
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="100sp"
+        android:id="@+id/view"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view"
+        android:text="Play"
+        android:textColor="#0D0E0E"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/buttonplay"
+        />
+
+    <TextView
+        android:textColor="#F8E005"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bicep Curl"
+        android:textSize="30sp"
+        android:layout_marginTop="400sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/barbell"
+        />
+
+    <TextView
+        android:textColor="#F8E005"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight= 7.5-10-12.5 KG"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/barbell"
+        android:id="@+id/barbellweight"
+        />
+
+    <TextView
+        android:textColor="#F8E005"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rounds= 15-12-10"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/barbellweight"
+        android:id="@+id/rounds"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F9FAFC"
+        android:text="A number of similar exercises are called bicep curls. These are designed to use the muscles on the top of the arm.
+
+Most of the time a person is seated or standing and a weight is held in the hand. The elbow is then bent to make the hand come to the shoulder.
+
+
+The supinated-forearm biceps curl is sometimes done on the preacher bench, which helps to keep the high part of the arm still. It also moves the elbows forward in front of the body, shortening the biceps muscles. Model is doing exercise with dumbbells, it can also be done using a bar or EZ bar.
+The different kinds of bicep curls mostly change the way the wrist is positioned."
+        android:layout_below="@id/rounds"
+        android:textSize="13sp"
+        android:layout_marginTop="15sp"
+        />
+
+
+</RelativeLayout>

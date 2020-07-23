@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myfitnessapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".Pullups" />
+        <activity android:name=".Deadlift" />
+        <activity android:name=".Seatedrow" />
+        <activity android:name=".Bentkneerow" />
+        <activity android:name=".Singlearmrow" />
+        <activity android:name=".Triceppushdown" />
+        <activity android:name=".TricepDips" />
+        <activity android:name=".Inclineddumbbelcurl" />
+        <activity android:name=".Hammercurl" />
+        <activity android:name=".Bicepcurl" />
+        <activity android:name=".RomanianDeadlift" />
+        <activity android:name=".Walkinglunges" />
+        <activity android:name=".Stepup" />
+        <activity android:name=".Squats" />
+        <activity android:name=".Legpress" />
+        <activity android:name=".Reardeltflies" />
+        <activity android:name=".Shouldershrugs" />
+        <activity android:name=".Lateralraises" />
+        <activity android:name=".Platepressout" />
+        <activity android:name=".Dumbbellpress" />
+        <activity android:name=".Inclineddumbbellflies" />
+        <activity android:name=".Dips" />
+        <activity android:name=".Pecdeck" />
+        <activity android:name=".Chestpress" />
+        <activity android:name=".Barbellbenchpress" />
+        <activity
+            android:name=".Back"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Arms"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Legs"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Shoulder"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".Chest"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity android:name=".Profile" />
+        <activity
+            android:name=".Exercisecategories"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

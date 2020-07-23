@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0A0A"
+    tools:context=".Exercisecategories">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G"
+        android:textSize="75sp"
+        android:textColor="#F8E005"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="125sp"
+        android:layout_marginTop="125sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y"
+        android:textSize="75sp"
+        android:textColor="#FCFCFB"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M"
+        android:textSize="75sp"
+        android:textColor="#F8E005"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="110sp"
+        android:layout_marginTop="125sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile:"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240sp"
+        android:textColor="#FCFCFD"
+        android:id="@+id/profile"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile"
+        android:text="Name"
+        android:textColor="#FCFCFD"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:textSize="15sp"
+        android:id="@+id/name"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_below="@id/name"
+        android:textColor="#FCFCFD"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:id="@+id/email"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight="
+        android:textColor="#F8E005"
+        android:textSize="15sp"
+        android:layout_marginTop="335.5sp"
+        android:id="@+id/right1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight"
+        android:layout_below="@id/email"
+        android:textColor="#FCFCFD"
+        android:id="@+id/weight"
+        android:layout_toRightOf="@id/right1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Height="
+        android:textColor="#F8E005"
+        android:layout_marginTop="354sp"
+        android:id="@+id/right2"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Height"
+        android:layout_below="@id/weight"
+        android:layout_marginRight="20sp"
+        android:textColor="#FCFCFD"
+        android:layout_toRightOf="@id/right2"
+        android:id="@+id/height"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI="
+        android:textColor="#F8E005"
+        android:id="@+id/right3"
+        android:layout_marginTop="374sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI"
+        android:textColor="#FCFCFD"
+        android:layout_below="@id/height"
+        android:layout_toRightOf="@id/right3"
+        android:id="@+id/bmiid"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Exercise Categories"
+        android:layout_marginTop="500sp"
+        android:id="@+id/exercise"
+        android:background="#F8E005"
+       />
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

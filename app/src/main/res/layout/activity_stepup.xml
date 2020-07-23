@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20sp"
+    android:background="#0A0A0A"
+    tools:context=".Stepup">
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="100sp"
+        android:id="@+id/view"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view"
+        android:text="Play"
+        android:textColor="#0D0E0E"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/buttonplay"
+        />
+
+    <TextView
+        android:textColor="#F8E005"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step up"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400sp"
+        android:id="@+id/barbell"
+        />
+
+    <TextView
+        android:textColor="#F8E005"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Free Body"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/barbell"
+        android:id="@+id/barbellweight"
+        />
+
+    <TextView
+        android:textColor="#F8E005"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rounds= 50-50-50"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/barbellweight"
+        android:id="@+id/rounds"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F9FAFC"
+        android:text="The dumbbell step-up is a great exercise for building lower-body strength and power. The dumbbell version is better for intermediate and advanced lifters than beginners, who should begin by performing these unweighted."
+        android:layout_below="@id/rounds"
+        android:textSize="15sp"
+        android:layout_marginTop="15sp"
+        />
+
+
+</RelativeLayout>

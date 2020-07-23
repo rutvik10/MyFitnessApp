@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20sp"
+    android:background="#0A0A0A"
+    tools:context=".Dips">
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="100sp"
+        android:id="@+id/view"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view"
+        android:text="Play"
+        android:textColor="#0D0E0E"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/buttonplay"
+        />
+
+    <TextView
+        android:textColor="#F8E005"
+        android:layout_marginTop="400sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dips"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/barbell"
+        />
+
+    <TextView
+        android:textColor="#F8E005"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight= On Strength"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/barbell"
+        android:id="@+id/barbellweight"
+        />
+
+    <TextView
+        android:textColor="#F8E005"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rounds= 15-12-10-8"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/barbellweight"
+        android:id="@+id/rounds"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A dip is an upper-body strength exercise. Narrow, shoulder-width dips primarily train the triceps, with major synergists being the anterior deltoid, the pectoralis muscles (sternal, clavicular, and minor), and the rhomboid muscles of the back (in that order).[1] Wide arm training places additional emphasis on the pectoral muscles, similar in respect to the way a wide grip bench press would focus more on the pectorals and less on the triceps"
+        android:layout_below="@id/rounds"
+        android:textSize="13sp"
+        android:layout_marginTop="15sp"
+        android:textColor="#F9FAFC"
+        />
+
+
+</RelativeLayout>
